@@ -1,0 +1,36 @@
+//Web Fonts
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Roboto:100,300,700');
+$roboto: 'Roboto', sans-serif;
+$slab: 'Josefin Slab', serif;
+
+//Web Colors
+
+$status-purple: (
+  primary: #9D7FEF,
+  dark: #7251CD,
+);
+
+$dark: #4a4a4a;
+$medium-dark: #cccccc;
+$medium: #a6a6a6;
+$pink: #F2335E;
+
+.dark {
+  color: $dark;
+}
+
+.medium {
+  color: $medium;
+}
+
+.pink {
+  color: $pink;
+}
+
+.purple-primary {
+  color: map-get($status-purple, primary)
+}
+
+.purple-dark {
+  color: map-get($status-purple, dark)
+}
